@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Mochiy+Pop+One&display=swap');
-img{
+#profile{
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -27,4 +27,31 @@ i{
     margin-top: 10px !important;
     font-size: 25px;
     font-style: oblique;
+}
+p{
+    margin-top: 10px !important;
+    font-size: 25px;
+    font-style: oblique;
+}
+#whatsapp{
+    color: #4fce5d;
+}
+.e-mail a{
+    padding-top: 7px !important;
+    color: black ;
+    border: 1px solid black;
+    padding: 5px 6% ;
+    border-radius: 10%;
+    transition: 0.5s;
+} 
+.e-mail a:hover{
+    color: white;
+    background-color: black;
+} 
+.facebook a{
+    padding-top: 7px !important;
+    padding: 5px 6% ;
+    border: 1px solid #1778f2;
+    border-radius: 10%;
+
 }
