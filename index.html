@@ -19,8 +19,28 @@
         <div class="row">
             <div class="col-12 col-lg-4 col-md-12 col-sm-12 ">
                 <div class="text-center">
-                    <img class=" border border-info  border-5 border-info mt-5 mt-lg-5 mt-sm-3 animate__animated animate__fadeInLeft" src="mr azad.jpg" alt="">
-                </div>
+
+
+                    <!-- Button trigger modal -->
+<a   data-bs-toggle="modal" data-bs-target="#exampleModalx">
+  <img id="profile" class=" border border-info border-5 mt-5 mt-lg-5 mt-sm-3 animate__animated animate__fadeInLeft" src="mr azad.jpg" alt="">
+
+</a>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalx" tabindex="-1" aria-labelledby="exampleModalLabelx" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <img class=" img-fluid" src="mr azad.jpg" alt="">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+
+
+
+                  </div>
                 <div class="text-center">
                   <button type="button" class="btn btn-outline-danger my-3"  data-bs-toggle="modal" data-bs-target="#exampleModal" >contact</button>
                 </div>
@@ -31,12 +51,20 @@
                         <h5 class="modal-title" id="exampleModalLabel">contact information</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">
-                        <i class="bi bi-whatsapp" >+1 (786)819-1882</i><br>
-                        <i class="bi bi-envelope-fill"> azadrahmansavar@gmail.com</i><br>
-                        <a href="https://www.facebook.com/azadrahmandhaka">
-                          <i class="bi bi-facebook"></i>
-                        </a>
+                      <div class="modal-body ">
+
+                        <div class="whatsapp text-center my-2">
+                          <i id="whatsapp" class="bi bi-whatsapp" ><span style="color: black;">+1 (786)819-1882</span></i><br>
+                        </div>
+                        <div class="e-mail text-center my-2">
+                          <a href="mailto: azadrahmansavar@gmail.com"><i class="bi bi-envelope-fill"> </i></a><br>
+                        </div>
+
+                        <div class="facebook text-center my-2">
+                          <a href="https://www.facebook.com/azadrahmandhaka">
+                            <i class="bi bi-facebook"></i>
+                          </a>
+                        </div>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -49,7 +77,7 @@
             <div class="col-12 col-lg-8 col-md-12 col-sm-12 my-auto "> 
                 <div class=" name  text-center  animate__animated animate__fadeInLeft">
                     <div class="display-1  ">
-                      AZAD RAHMAN
+                      <span class="text-danger">A</span>ZAD RAHMAN
                     </div>
                 </div>
             </div>
