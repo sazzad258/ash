@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html const [propertyName] = arrayToDestruct;> 
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -28,12 +28,14 @@
 </a>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalx" tabindex="-1" aria-labelledby="exampleModalLabelx" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-        
-        <img class=" img-fluid" src="mr azad.jpg" alt="">
-        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+<div class="">
+  <div class="profile-modal modal animate__animated animate__swing" id="exampleModalx" tabindex="-1" aria-labelledby="exampleModalLabelx" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img class=" img-fluid" src="mr azad.jpg" alt="">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>
@@ -56,14 +58,16 @@
                         <div class="whatsapp text-center my-2">
                           <i id="whatsapp" class="bi bi-whatsapp" ><span style="color: black;">+1 (786)819-1882</span></i><br>
                         </div>
-                        <div class="e-mail text-center my-2">
-                          <a href="mailto: azadrahmansavar@gmail.com"><i class="bi bi-envelope-fill"> </i></a><br>
-                        </div>
-
-                        <div class="facebook text-center my-2">
-                          <a href="https://www.facebook.com/azadrahmandhaka">
-                            <i class="bi bi-facebook"></i>
-                          </a>
+                        <div class="">
+                          <div class="e-mail text-center my-2 ">
+                            <a href="mailto: azadrahmansavar@gmail.com"><i class="bi bi-envelope-fill"> </i></a><br>
+                          </div>
+                          
+                          <div class="facebook text-center my-2">
+                            <a target="blank" href="https://www.facebook.com/azadrahmandhaka">
+                              <i class="bi bi-facebook"></i>
+                            </a>
+                          </div>
                         </div>
                       </div>
                       <div class="modal-footer">
