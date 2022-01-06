@@ -5,6 +5,10 @@
     border-radius: 50%;
     object-fit: cover;
 }
+#displayBox{
+    height: 500px;
+    object-fit: contain;
+}
 .name{
     border-radius: 43px;
 background: #e0e0e0;
@@ -84,4 +88,10 @@ p{
     .profile-modal {
       background-color: rgba(155, 155, 19, 0.486) !important;
     }
+  }
+  .mod-img{
+     height: 100px !important;
+      width: 100% !important;
+      object-fit: cover;
+      padding: 10px 10px;
   }
